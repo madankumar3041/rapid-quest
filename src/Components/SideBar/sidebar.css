@@ -1,0 +1,119 @@
+
+
+.main-sidebar {
+  width: 4%;
+  height: 100vh;
+}
+.search-icon {
+  padding-top: 47px;
+  padding-left: 12px;
+  color: #acaaac;
+}
+
+.home-icon {
+  width: 31px;
+  color: #acaaac;
+  margin-left: 8px;
+  margin-top: 61px;
+  padding-left: 4px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+}
+.note-icon{
+  width: 31px;
+  color: #acaaac;
+  margin-left: 8px;
+  margin-top: 10px;
+  padding-left: 7px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+}
+
+.note-icon:hover{
+  border-radius: 7px;
+  box-shadow: 0 4px 8px 0 rgb(0 0 0 / 20%), 0 6px 20px 0 rgb(0 0 0 / 19%);
+  background-color: blue;
+  color: white;
+  cursor: pointer;
+}
+.web-icon{
+  width: 31px;
+  color: #acaaac;
+  margin-left: 8px;
+  margin-top: 10px;
+  padding-left: 9px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+}
+.web-icon:hover{
+  color: white;
+  border-radius: 7px;
+  box-shadow: 0 4px 8px 0 rgb(0 0 0 / 20%), 0 6px 20px 0 rgb(0 0 0 / 19%);
+  background-color: blue;
+  cursor: pointer;
+}
+.detail-icon{
+  width: 31px;
+  color: #acaaac;
+  margin-left: 8px;
+  margin-top: 10px;
+  padding-left: 7px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+}
+.detail-icon:hover{
+  border-radius: 7px;
+  box-shadow: 0 4px 8px 0 rgb(0 0 0 / 20%), 0 6px 20px 0 rgb(0 0 0 / 19%);
+  background-color: blue;
+  cursor: pointer;
+  color: white;
+}
+.home-icon i{
+  font-size: 24px;
+}
+.home-icon:hover{
+  color: white;
+  border-radius: 7px;
+  box-shadow: 0 4px 8px 0 rgb(0 0 0 / 20%), 0 6px 20px 0 rgb(0 0 0 / 19%);
+  background-color: blue;
+  cursor: pointer;
+}
+
+.notifi-icon{
+  width: 31px;
+  color: #acaaac;
+  margin-left: 8px;
+  margin-top: 300px;
+  padding-left: 7px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+}
+.notifi-icon:hover{
+  color: white;
+  border-radius: 7px;
+  box-shadow: 0 4px 8px 0 rgb(0 0 0 / 20%), 0 6px 20px 0 rgb(0 0 0 / 19%);
+  background-color: blue;
+  cursor: pointer;
+}
+.next-icon{
+  width: 31px;
+  color: #acaaac;
+  margin-left: 8px;
+  margin-top: 10px;
+  padding-left: 7px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+}
+.next-icon:hover{
+  color: white;
+  border-radius: 7px;
+  box-shadow: 0 4px 8px 0 rgb(0 0 0 / 20%), 0 6px 20px 0 rgb(0 0 0 / 19%);
+  background-color: blue;
+  cursor: pointer;
+}
+
+@media only screen and (max-width: 425px) {
+  .main-sidebar {
+    display: none;
+  }
+}

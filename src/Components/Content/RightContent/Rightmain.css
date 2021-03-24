@@ -1,0 +1,129 @@
+.right-main {
+    width: 23%;
+}
+.contest {
+  width: 270px;
+  height: 302px;
+  background-color: #f2f2f2;
+  margin-top: 58px;
+}
+.div-content h5 {
+  text-align: center;
+  padding-top: 15px;
+  margin-bottom: 30px;
+}
+.boxing-dotted {
+  display: flex;
+  margin-top: 18px;
+}
+.boxing-dotted h5 {
+  margin-left: 25px;
+}
+.boxing-dotted h4 {
+  margin-left: 52px;
+}
+.boxing-dotten {
+  display: flex;
+  margin-top: 18px;
+}
+.boxing-dotten h5 {
+  margin-left: 25px;
+}
+.boxing-dotten h4 {
+  margin-left: 50px;
+  margin-left: 128px;
+}
+
+.btn-button {
+  margin-left: 43px;
+
+  border: none;
+  outline: none;
+  width: 199px;
+  height: 41px;
+  background: blue;
+  color: white;
+  border-radius: 9px;
+  margin-top: 18px;
+  cursor: pointer;
+}
+.midflow {
+  margin-left: 93px;
+  margin-top: 18px;
+}
+.midflow a {
+  text-decoration: none;
+  font-size: 12px;
+  cursor: pointer;
+  border: none;
+  outline: none;
+}
+.arrow-line {
+  border: solid blue;
+  border-width: 0 1px 1px 0;
+  display: inline-block;
+  padding: 2px;
+  margin-bottom: 1px;
+}
+
+.right {
+  transform: rotate(-45deg);
+  -webkit-transform: rotate(-45deg);
+}
+
+.artflow {
+    padding: 7px 12px;
+    border-left: 2px solid blue;
+    height: 104px;
+    position: relative;
+    width: 60%;
+    margin-top: 34px;
+}
+
+.artflow p{
+    font-size: 12px;
+    margin-bottom: 5px;
+}
+.artflow span{
+    font-weight: bold;
+}
+.artflow h6{
+    color: #acaaac;
+    margin-top: 7px;
+    margin-bottom: 14px;
+}
+.artflow a{
+    text-decoration: none;
+    font-size: 13px;
+    cursor: pointer;
+    border: none;
+    outline: none;
+}
+meter {
+  margin-right: 13px;
+  width: 154px;
+  height: 11px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+meter::-webkit-meter-optimum-value{
+  background: none; 
+  background-color: rgb(58, 170, 230);
+
+}
+.meter-progress{
+  font-size: 14px;
+  font-weight: bold;
+  margin-left: 22px;
+}
+
+@media only screen and (max-width: 425px) {
+
+  .right-main {
+    width: 100%;
+    position: relative;
+    top: 496px;
+    padding-left: 78px;
+    padding-bottom: 44px;
+}
+  }

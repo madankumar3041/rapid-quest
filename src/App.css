@@ -1,0 +1,17 @@
+.App{
+    padding: 0;
+    margin: 0;
+    width: 100%;
+    height: 100vh;
+    display: flex;
+}
+
+@media only screen and (max-width: 425px) {
+    .App{
+        padding: 0;
+        margin: 0;
+        width: 100%;
+        height: 100vh;
+        flex-direction: column;
+    }
+}

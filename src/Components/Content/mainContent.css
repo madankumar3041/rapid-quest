@@ -1,0 +1,118 @@
+h6,h5,h3{
+    margin: 0;
+    padding: 0;
+}
+.maincontent{
+    width: 49%;
+    height: 100vh;
+}
+.main-col{
+    margin-left: 64px;
+}
+.header-text h5{
+    color: blue;
+    margin-top: 40px;
+
+}
+.header-text h3{
+    margin-top: 4px;
+}
+.bar-text{
+    display: flex;
+}
+.sub-text-mapped{
+    padding: 10px 29px 0px 0px;
+    width: 180px;
+    margin-top: 9px;
+}
+.sub-text-mapped h6{
+    color: #acaaac;
+}
+.sub-text-mapped h6{
+    margin-top: 2px;
+    margin-bottom: 7px;
+}
+.sub-text-mapped::after{
+    content: '';
+    width: 100%;
+    height: 2px;
+    background: blue;
+    display: block;
+    margin: auto;
+    transition: 0.4s;
+}
+
+.charts-box h5{
+    margin-top: 45px;
+    font-size: 15px;
+}
+.charts-box img{
+    height: 173px;
+    width: 543px;
+}
+
+.bottom-box h6{
+    color: #acaaac;
+    margin-top: 6px;
+
+}
+.bottom-box h5{
+    font-size: 15px;
+}
+.select-dropdown{
+    display: grid;
+}
+.select-dropdown span{
+    padding-top: 22px;
+    font-size: 12px;
+
+}
+.select-dropdown select{
+    border:none;
+    outline: none;
+}
+
+.progress-drop{
+        position: relative;
+        left: 29%;
+        width: 51%;
+        top: -104px;
+}
+
+.selecting{
+    display: contents;
+    
+}
+.selecting span{
+    border-bottom: 2px solid #f5f5f5;
+    position: relative;
+    width: 24%;
+}
+
+@media only screen and (max-width: 425px) {
+    .charts-box img {
+        height: 135px;
+        width: 322px;
+    }
+.bar-text {
+    display: flex;
+    flex-wrap: wrap;
+}
+.charts-box h5 {
+    margin-top: 45px;
+    font-size: 13px;
+    width: 158px;
+}
+.bottom-box h5 {
+    font-size: 13px;
+    width: 200px;
+}
+.progress-drop {
+    position: relative;
+    left: 0%;
+    width: 219%;
+    top: 31px;
+}
+
+
+}

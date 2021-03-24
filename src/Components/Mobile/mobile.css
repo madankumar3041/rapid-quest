@@ -1,0 +1,129 @@
+
+.main-sidebars {
+    display: none;
+
+  }
+  .search-icons {
+    padding-top: 5px;
+    padding-left: 12px;
+    color: #acaaac;
+    margin-left: 47px;
+  }
+  
+  .home-icons {
+    width: 31px;
+    color: #acaaac;
+    margin-left: 8px;
+    padding-left: 4px;
+    padding-bottom: 5px;
+  }
+  .note-icons{
+    width: 31px;
+    color: #acaaac;
+    margin-left: 47px;
+    padding-left: 7px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+  }
+  
+  .note-icons:hover{
+    border-radius: 7px;
+    box-shadow: 0 4px 8px 0 rgb(0 0 0 / 20%), 0 6px 20px 0 rgb(0 0 0 / 19%);
+    background-color: blue;
+    color: white;
+    cursor: pointer;
+  }
+  .web-icons{
+    width: 31px;
+    color: #acaaac;
+    margin-left: 47px;
+    padding-left: 9px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+  }
+  .web-icons:hover{
+    color: white;
+    border-radius: 7px;
+    box-shadow: 0 4px 8px 0 rgb(0 0 0 / 20%), 0 6px 20px 0 rgb(0 0 0 / 19%);
+    background-color: blue;
+    cursor: pointer;
+  }
+  .detail-icons{
+    width: 31px;
+    color: #acaaac;
+    margin-left: 47px;
+    padding-left: 7px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+  }
+  .detail-icons:hover{
+    border-radius: 7px;
+    box-shadow: 0 4px 8px 0 rgb(0 0 0 / 20%), 0 6px 20px 0 rgb(0 0 0 / 19%);
+    background-color: blue;
+    cursor: pointer;
+    color: white;
+  }
+  .home-icons i{
+    font-size: 24px;
+  }
+  .home-icons:hover{
+    color: white;
+    border-radius: 7px;
+    box-shadow: 0 4px 8px 0 rgb(0 0 0 / 20%), 0 6px 20px 0 rgb(0 0 0 / 19%);
+    background-color: blue;
+    cursor: pointer;
+  }
+  
+  .notifi-icons{
+    width: 31px;
+    color: #acaaac;
+    margin-left: 8px;
+    padding-left: 7px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+  }
+  .notifi-icons:hover{
+    color: white;
+    border-radius: 7px;
+    box-shadow: 0 4px 8px 0 rgb(0 0 0 / 20%), 0 6px 20px 0 rgb(0 0 0 / 19%);
+    background-color: blue;
+    cursor: pointer;
+  }
+  .next-icons{
+    width: 31px;
+    color: #acaaac;
+    margin-left: 8px;
+    padding-left: 7px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+  }
+  .next-icons:hover{
+    color: white;
+    border-radius: 7px;
+    box-shadow: 0 4px 8px 0 rgb(0 0 0 / 20%), 0 6px 20px 0 rgb(0 0 0 / 19%);
+    background-color: blue;
+    cursor: pointer;
+  }
+  .notifi-ico{
+      display: none;
+  }
+  
+  @media only screen and (max-width: 425px) {
+  .main-sidebars{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    height: 43px;
+    position: fixed;
+    bottom: 0;
+    background: white;
+}
+.notifi-ico{
+    padding: 14px 17px 0px 0px;
+    display: block;
+    position: fixed;
+    top: 0;
+    left: 356px;
+    background: white;
+}
+  }
